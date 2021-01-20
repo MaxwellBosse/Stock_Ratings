@@ -32,3 +32,16 @@ Based Recommendations on CAN SLIM
 
 - M stands for Market Direction, which is categorized into three - Market in Confirmed Uptrend, Market Uptrend Under Pressure, and Market in Correction. The S&P 500 and NASDAQ are studied to determine the market direction. During the time of investment, O'Neil prefers investing during times of definite uptrends of these indexes, as three out of four stocks tend to follow the general market direction.
 
+Pulling
+
+Completed 
+- C - having quarterly and annual earnings pull
+- A - annual EPS in earnings, ROE in Fundamental 
+- S - Daily trading volume
+- 
+
+Need
+- N - Polygon
+- L - Need to be able to pull industry group and run to compare to stock of interest
+- I - Need to be able to pull fund ownership of large institutions by quarter
+- M - Look up market direction definitions

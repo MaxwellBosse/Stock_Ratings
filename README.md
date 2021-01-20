@@ -38,10 +38,9 @@ Completed
 - C - having quarterly and annual earnings pull
 - A - annual EPS in earnings, ROE in Fundamental 
 - S - Daily trading volume
-- 
+- M - Market Direction via IWO EMA 
+- I - Got instituional owndership and 3month delta
 
 Need
 - N - Polygon
 - L - Need to be able to pull industry group and run to compare to stock of interest
-- I - Need to be able to pull fund ownership of large institutions by quarter
-- M - Look up market direction definitions
