@@ -4,7 +4,7 @@ Capstone project
 Use ARIMA and SVM Models in tandem with CANSLIM Framework to aid investors in their Due Dilligence. 
 
 ## Table of Contents
-1. [1_AlphaVantage_Wrapper](./1- AlphaVantage_Wrapper.ipynb)
+1. [1_AlphaVantage_Wrapper](./1_AlphaVantage_Wrapper.ipynb)
 2. [2_Fetch_Ticker_Data](./2_Fetch_Ticker_Data.ipynb)
 3. [3_FinViz](./3_FinViz.ipynb)
 4. [4_ARIMA](./4_ARIMA.ipynb)
