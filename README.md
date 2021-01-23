@@ -4,12 +4,12 @@ Capstone project
 Use ARIMA and SVM Models in tandem with CANSLIM Framework to aid investors in their Due Dilligence. 
 
 ## Table of Contents
-1. [1 - Fetch_Ticker_Data](1 - Fetch_Ticker_Data.ipynb)
-2. [1 - FinViz](1 - FinViz.ipynb)
-3. [1- AlphaVantage_Wrapper](1- AlphaVantage_Wrapper.ipynb)
-4. [2 - ARIMA](2 - ARIMA.ipynb)
-5. [3 - SVM](3 - SVM.ipynb)
-6. [4- CANSLIM](4- CANSLIM.ipynb)
+1. [1 - Fetch_Ticker_Data](./1 - Fetch_Ticker_Data.ipynb)
+2. [1 - FinViz](./1 - FinViz.ipynb)
+3. [1- AlphaVantage_Wrapper](./1- AlphaVantage_Wrapper.ipynb)
+4. [2 - ARIMA](./2 - ARIMA.ipynb)
+5. [3 - SVM](./3 - SVM.ipynb)
+6. [4- CANSLIM](./4- CANSLIM.ipynb)
 7. [Executive_Summary](Executive_Summary.md)
 8. [Tableau Visualizations](https://public.tableau.com/profile/maxwell.bosse#!/vizhome/DOCU/StockPrice)
 
