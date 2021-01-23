@@ -1,4 +1,4 @@
-surprise,surprisePercentage,reported_Quarterly_EPS,estimated_Quarterly_EPS,reported_Annual_EPS
+reportedDate,surprise,surprisePercentage,reported_Quarterly_EPS,estimated_Quarterly_EPS,reported_Annual_EPS
 2020-11-30,0.2296,30.1946,0.99,0.7604,2.11
 2020-08-31,0.4662,102.7325,0.92,0.4538,
 2020-06-02,0.1015,103.0457,0.2,0.0985,

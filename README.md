@@ -1,11 +1,58 @@
 # Capstone
 Capstone project
 
-Problem Statement #1 - Create a multi-class classification model that takes in a stock as an input and provides the user with a buy, hold or sell recommendation based on the technical analysis, fund ownership, financials etc. 
-- Could also utilize user input to group users by risk profile (which would alter the recommendation)
-- Could create web app for this (Patrick suggested Django as an option to explore)
+Use ARIMA and SVM Models in tandem with CANSLIM Framework to aid investors in their Due Dilligence. 
 
-Risks - Could be difficult to incorporate every ticker into this project so may have to choose a sector/number of sectors. 
+## Table of Contents
+1. [1 - Fetch_Ticker_Data](1 - Fetch_Ticker_Data.ipynb)
+2. [1 - FinViz](1 - FinViz.ipynb)
+3. [1- AlphaVantage_Wrapper](1- AlphaVantage_Wrapper.ipynb)
+4. [2 - ARIMA](2 - ARIMA.ipynb)
+5. [3 - SVM](3 - SVM.ipynb)
+6. [4- CANSLIM](4- CANSLIM.ipynb)
+7. [Executive_Summary](Executive_Summary.md)
+8. [Tableau Visualizations](https://public.tableau.com/profile/maxwell.bosse#!/vizhome/DOCU/StockPrice)
+
+## Features in stock_data.csv
+
+|Feature|Type|Origin|Description|
+|---|---|---|---|
+**1. open**|*float*|AlphaVantage|Open price for the stock. 
+**2. high**|*float*|AlphaVantage|Daily high price for stock.
+**3. low**|*float*|AlphaVantage|Daily low price for the stock.
+**4. close**|*float*|AlphaVantage|Closing price for the stock.
+**5. volume**|*float*|AlphaVantage|Daily trading volume for the stock.
+**IWO_5d_EMA**|*float*|AlphaVantage|iShares Russell 2000 Growth ETF 5 day exponential moving average.
+**IWO_10d_EMA**|*float*|AlphaVantage|iShares Russell 2000 Growth ETF 10 day exponential moving average.
+**IWO_150d_EMA**|*float*|AlphaVantage|iShares Russell 2000 Growth ETF 150 day exponential moving average.
+**EMA_8**|*float*|AlphaVantage|8 day exponential moving average for the stock.
+**EMA_21**|*float*|AlphaVantage|21 day exponential moving average for the stock.
+**SMA_50**|*float*|AlphaVantage|50 day simple moving average for the stock.
+**SMA_200**|*float*|AlphaVantage|200 day simple moving average for the stock.
+
+## Features in stock_earnings.csv
+
+|Feature|Type|Origin|Description|
+|---|---|---|---|
+**surprise**|*float*|AlphaVantage|Reported quarterly EPS - estimated quarterly EPS.
+**surprisePercentage**|*float*|AlphaVantage|(Reported quarterly EPS/estimated quarterly EPS) *100.
+**reported_Quarterly_EPS**|*float*|AlphaVantage|Reported quarterly earnings per share.
+**estimated_Quarterly_EPS**|*float*|AlphaVantage|Estimated quarterly earnings per share.
+**reported_Annual_EPS**|*float*|AlphaVantage|Reported annual earnings per share.
+
+## Features in CANSLIM.csv
+
+|Feature|Type|Origin|Description|
+|---|---|---|---|
+**IWO_5d_EMA**|*float*|AlphaVantage|iShares Russell 2000 Growth ETF 5 day exponential moving average for most recent close date.
+**IWO_10d_EMA**|*float*|AlphaVantage|iShares Russell 2000 Growth ETF 10 day exponential moving average for most recent close date.
+**IWO_150d_EMA**|*float*|AlphaVantage|iShares Russell 2000 Growth ETF 150 day exponential moving average for most recent close date.
+**Institutional_Ownership**|*float*|FinViz.com|Institutional Ownership of Stock.
+**Institutional_Ownership_3months**|*float*|FinViz|Change in institutional ownership over the last 3 months as a percentage.
+**ROE_TTM**|*float*|AlphaVantage|Return on Equity for trailing twelve months.
+
+## Software Packages Required
+Numpy, Pandas, Matplotlib, pmdarima, AlphaVantage, Requests
 
 Based Recommendations on CAN SLIM 
 - C stands for Current quarterly earnings. Per share, current earnings should be up at least 25% in the most recent financial quarter, compared to the same quarter the previous year. Additionally, if earnings are accelerating in recent quarters, this is a positive prognostic sign.
@@ -44,3 +91,4 @@ Completed
 Need
 - N - Polygon
 - L - Need to be able to pull industry group and run to compare to stock of interest
+
