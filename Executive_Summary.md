@@ -20,8 +20,8 @@
 -- M stands for Market Direction, which is categorized into three - Market in Confirmed Uptrend, Market Uptrend Under Pressure, and Market in Correction. The S&P 500 and NASDAQ are studied to determine the market direction. During the time of investment, O'Neil prefers investing during times of definite uptrends of these indexes, as three out of four stocks tend to follow the general market direction.
 
 
-- In addition to the metrics highlighted above, the predictions of both the ARIMA model and SVM model are used in the screener to advise potential investors. 
+- In addition to the metrics highlighted above, the predictions of both the ARIMA model and SVM model will be used in the screener to aid potential investors. 
 
 
 ### Findings
-After running multiple tickers through the models it is clear that the volatility in the stock market over the last year from the impact of Covid-19 makes it extremely difficult to have any sort of accuracy in predicting a stock price. The visualizations we can construct from the stock data we pulled + scraped is still helpful in aiding potential investors to idetify stocks with strong support levels and growth potential. 
+After running multiple tickers through the models it is clear that the volatility in the stock market over the last year from the impact of Covid-19 makes it extremely difficult to have any sort of accuracy in predicting a stock price. The visualizations we can construct from the stock data we pulled + scraped is still helpful in aiding potential investors to idetify stocks with strong support levels and growth potential.  

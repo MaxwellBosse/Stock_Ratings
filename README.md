@@ -56,7 +56,7 @@ Use ARIMA and SVM Models in tandem with CANSLIM Framework to aid investors in th
 ## Software Packages Required
 Numpy, Pandas, Matplotlib, pmdarima, AlphaVantage, Requests
 
-Based Recommendations on CAN SLIM 
+## Based Recommendations on CAN SLIM 
 - C stands for Current quarterly earnings. Per share, current earnings should be up at least 25% in the most recent financial quarter, compared to the same quarter the previous year. Additionally, if earnings are accelerating in recent quarters, this is a positive prognostic sign.
 
 - A stands for Annual earnings growth, which should be up 25% or more over the last three years. Annual returns on equity should be 17% or more
@@ -78,7 +78,30 @@ Completed
 - M - Market Direction via IWO EMA 
 - I - Got instituional owndership and 3month delta
 
-Need
+Incomplete
 - N - Polygon/FinViz/etc. 
 - L - Need to be able to pull industry group and run to compare to stock of interest
 
+## Next Steps
+
+#### Incorporate CANSLIM criteria as categorical features in a (multi)classification model 
+- Rate a stock as Buy/Sell or Buy/Hold/Sell
+Progress - CANSLIM function created just need to obtain additional data
+
+#### Obtain data for two outstanding criteria
+“N” - New Products/Leadership/Price High
+- Scape most recent 10-K filing for instances of “new product”
+- Scape Finviz News section for relevant keywords
+
+“L” - Leader or Laggard
+- Scrape or create own industry groups manually. 
+
+Try testing new models on 1 industry group
+
+Link output to Tableau with other visuals
+
+## Limitations
+
+- Stock market volatility has ramped up.
+- Company valuations have ballooned. 
+- Covid impact on market has greatly impacted all models (more recent data typically lies in training set)
