@@ -11,7 +11,7 @@ Use ARIMA and SVM Models in tandem with CANSLIM Framework to aid investors in th
 5. [5_SVM](./5_SVM.ipynb)
 6. [6_CANSLIM](./6_CANSLIM.ipynb)
 7. [7_VAR](./7_VAR.ipynb)
-8. [Building a Stock Rating System](Building a Stock Rating System.pdf)
+8. [Presentation](https://github.com/defmaxbosse/Stock_Ratings/blob/main/Building_a_Stock_Rating_System.pdf)
 9. [Executive_Summary](Executive_Summary.md)
 10. [Tableau Visualizations](https://public.tableau.com/profile/maxwell.bosse#!/vizhome/DOCU/StockPrice)
 
