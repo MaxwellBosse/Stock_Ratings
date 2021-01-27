@@ -1,14 +1,16 @@
 # Executive Summary 
 
 ### Project Goal
-- Use ARIMA and SVM Models in tandem with CANSLIM Framework to aid investors in their Due Dilligence.
+- Use ARIMA and SVM Models in tandem with CANSLIM Framework to aid investors in their Due Dilligence. End goal is a (multi)classification model that takes in a stock and gives it a buy/hold/sell recommendation. 
 
 ### Data
 - Data was retrieved using AlphaVantage API and by scraping FinViz, an website that has many metrics on most publically listed companies
 
 ### Metrics
-- The metrics used for this project orginated from William O'Neil who developed a system for selecting growth stocks using a combination of fundamental and technical analysis. This system is known as CANSLIM
+- The methodology used for this project orginated from William O'Neil who developed a system for selecting growth stocks using a combination of fundamental and technical analysis. This system is known as CANSLIM
+
 - Each letter in the acronym stands for a key factor investors should look for when initiating/adding to a position in a public company. 
+
 -- C stands for Current quarterly earnings. Per share, current earnings should be up at least 25% in the most recent financial quarter, compared to the same quarter the previous year. Additionally, if earnings are accelerating in recent quarters, this is a positive prognostic sign.
 -- A stands for Annual earnings growth, which should be up 25% or more over the last three years. Annual returns on equity should be 17% or more
 -- N stands for New product or service, which refers to the idea that a company should have continuing development and innovation. This is what allows the stock to emerge from a proper chart pattern and achieve a new price. A notable example of this is Apple's iPhone.
